@@ -1,21 +1,20 @@
                                                          SQL Challenge
 
-In this assignment, we will design the SQL tables to hold data that is given in the CSVs, import the CSVs into a SQL database, and answer questions about the data.
-In other words, we will perform:
+In this assignment, we designed the SQL tables to hold data that is given in the CSVs, import the CSVs into a SQL database, and answer questions about the data.
+In other words, we performed:
 1.	Data Modeling
 2.	Data Engineering
 3.	Data Analysis
 
-Data Modeling
+Data Modeling:
 1) Table script is created after looking the CSVs files and data. Table names are same as CSV file name. Table creation script is:  https://github.com/manishalal145/Bootcamp_Homework/blob/master/SQLChallenge/EmployeeSQL/table_schema.sql 
 2) ERD was created using http://www.quickdatabasediagrams.com. Here is ERD file: https://github.com/manishalal145/Bootcamp_Homework/blob/master/SQLChallenge/EmployeeSQL/ERD.png 
 
-Data Engineering
-
+Data Engineering:
 1) Tables were created using scripts in Postgres database
 2) Data from CSV files were imported into corresponding SQL table.
 
-Data Analysis
+Data Analysis:
 Query file is included to answer the following questions. 
 Queries are in this file: https://github.com/manishalal145/Bootcamp_Homework/blob/master/SQLChallenge/EmployeeSQL/queries.sql
 
