@@ -1,4 +1,4 @@
-                                                         SQL Challenge
+                                                  SQL Challenge
 
 In this assignment, we designed the SQL tables to hold data that is given in the CSVs, import the CSVs into a SQL database, and answer questions about the data.
 In other words, we performed:
@@ -25,4 +25,4 @@ Query file is included to answer the following questions:
 7.	List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8.	In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-Queries are in this file: https://github.com/manishalal145/Bootcamp_Homework/blob/master/SQLChallenge/EmployeeSQL/queries.sql
+Queries are in this file: https://github.com/manishalal145/SQLChallenege/blob/main/queries.sql
