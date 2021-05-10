@@ -6,15 +6,15 @@ In other words, we performed:
 2.	Data Engineering
 3.	Data Analysis
 
-Data Modeling:
+**Data Modeling:**
 1) Table script is created after looking the CSVs files and data. Table names are same as CSV file name. Table creation script is:  https://github.com/manishalal145/SQLChallenege/blob/main/table_schema.sql
 2) ERD was created using http://www.quickdatabasediagrams.com. Here is ERD file: https://github.com/manishalal145/SQLChallenege/blob/main/ERD.png
 
-Data Engineering:
+**Data Engineering:**
 1) Tables were created using scripts in Postgres database
 2) Data from CSV files were imported into corresponding SQL table.
 
-Data Analysis:   
+**Data Analysis:**          
 Query file is included to answer the following questions: 
 1.	List the following details of each employee: employee number, last name, first name, gender, and salary.
 2.	List employees who were hired in 1986.
