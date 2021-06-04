@@ -24,7 +24,8 @@ In this step an ERD(Entity Relation Database) diagram was built with 6 tables to
 #### Data Engineering
 
 In this step we use the information to create a table schema for each of the six CSV files. and import each CSV file into the corresponding SQL table.
-Table script is created after looking the CSVs files and data. Table names are same as CSV file name. Table creation script is: https://github.com/manishalal145/SQLChallenege/blob/main/table_schema.sql
+Table script is created after looking the CSVs files and data. Table names are same as CSV file name.
+Table creation script is: https://github.com/manishalal145/SQLChallenege/blob/main/table_schema.sql
 
 #### Data Analysis
 
