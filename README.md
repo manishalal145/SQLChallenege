@@ -19,7 +19,7 @@ The next step is to design the tables to hold data in the CSVs, import the CSVs 
 
 In this step an ERD(Entity Relation Database) diagram was built with 6 tables to inspect the 6 CSV files. 
 
-![ERD](ERD.jpg)
+![ERD](ERD.png)
 
 #### Data Engineering
 
