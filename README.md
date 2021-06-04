@@ -1,28 +1,49 @@
-                                                  SQL Challenge
+                                              
+# Employee Database with SQL
 
-In this assignment, we designed the SQL tables to hold data that is given in the CSVs, import the CSVs into a SQL database, and answer questions about the data.
-In other words, we performed:
-1.	Data Modeling
-2.	Data Engineering
-3.	Data Analysis
+![sql](Images/sql.png)
 
-**Data Modeling:**
-1) Table script is created after looking the CSVs files and data. Table names are same as CSV file name. Table creation script is:  https://github.com/manishalal145/SQLChallenege/blob/main/table_schema.sql
-2) ERD was created using http://www.quickdatabasediagrams.com. Here is ERD file: https://github.com/manishalal145/SQLChallenege/blob/main/ERD.png
+## Background
 
-**Data Engineering:**
-1) Tables were created using scripts in Postgres database
-2) Data from CSV files were imported into corresponding SQL table.
+The objective of this project is to conduct a research project on employees of a corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 
-**Data Analysis:**          
-Query file is included to answer the following questions: 
-1.	List the following details of each employee: employee number, last name, first name, gender, and salary.
-2.	List employees who were hired in 1986.
-3.	List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name,       and start and end employment dates.
-4.	List the department of each employee with the following information: employee number, last name, first name, and department name.
-5.	List all employees whose first name is "Hercules" and last names begin with "B."
-6.	List all employees in the Sales department, including their employee number, last name, first name, and department name.
-7.	List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-8.	In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+The next step is to design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, to perform the following:
+
+1. Data Modeling
+
+2. Data Engineering
+
+3. Data Analysis
+
+#### Data Modeling
+
+In this step an ERD(Entity Relation Database) diagram was built with 6 tables to inspect the 6 CSV files. 
+
+![ERD](Images/ERD.jpg)
+
+#### Data Engineering
+
+In this step we use the information to create a table schema for each of the six CSV files. and import each CSV file into the corresponding SQL table.
+Table script is created after looking the CSVs files and data. Table names are same as CSV file name. Table creation script is: https://github.com/manishalal145/SQLChallenege/blob/main/table_schema.sql
+
+#### Data Analysis
+
+Once we have a complete database, we run the SQL queries to obtain the following:
+
+1. List the following details of each employee: employee number, last name, first name, gender, and salary.
+
+2. List employees who were hired in 1986.
+
+3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
+
+4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+
+5. List all employees whose first name is "Hercules" and last names begin with "B."
+
+6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+
+7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+
+8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
 Queries are in this file: https://github.com/manishalal145/SQLChallenege/blob/main/queries.sql
