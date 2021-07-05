@@ -15,22 +15,19 @@ The next step is to design the tables to hold data in the CSVs, import the CSVs 
 
 3. Data Analysis
 
-#### Data Modeling
+## Data Modeling <br/>
 
 To model the employee data a basic data modeling technique called Entity-Relationship Diagrams (ERD) was used. By using this technique six employee database entities or tables are identified. These entities are employees, departments, salaries, titles, department managers, and department employees. The attribute or the data type of the entities also presented. At last, the ER diagram was drawn to visualize the relationships between entities/objects (primary key or foreign keys in a database).
 
 ![ERD](ERD.png)
 
-#### Data Engineering
-
+## Data Engineering
 Using the ERD, a table schema for each of the six CSV files is created including the datatypes, primary keys, foreign keys, and other constraints. The order of the table is based on the primary, and foreign arrangements.
 Note to import each CSV file into the corresponding SQL table the order strictly should be followed to avoid errors.
 Table creation script is: https://github.com/manishalal145/SQLChallenege/blob/main/table_schema.sql
 
-#### Data Analysis
-
+## Data Analysis
 Once we have a complete database, we run the SQL queries to obtain the following:
-
 1. List the following details of each employee: employee number, last name, first name, gender, and salary. 
 ![ERD](images/image1.png)
 
