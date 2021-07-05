@@ -31,20 +31,28 @@ Table creation script is: https://github.com/manishalal145/SQLChallenege/blob/ma
 
 Once we have a complete database, we run the SQL queries to obtain the following:
 
-1. List the following details of each employee: employee number, last name, first name, gender, and salary.
+1. List the following details of each employee: employee number, last name, first name, gender, and salary. 
+![ERD](images/image1.png)
 
 2. List employees who were hired in 1986.
+![ERD](images/image2.png)
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
+![ERD](images/image3.png)
 
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+![ERD](images/image4.png)
 
 5. List all employees whose first name is "Hercules" and last names begin with "B."
+![ERD](images/image5.png)
 
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+![ERD](images/image6.png)
 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+![ERD](images/image7.png)
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+![ERD](images/image8.png)
 
 Queries are in this file: https://github.com/manishalal145/SQLChallenege/blob/main/queries.sql
